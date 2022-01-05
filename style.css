@@ -3,10 +3,6 @@ body{
     margin: 0;
 }
 section{
-    
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat; 
-   
     padding-left: 50px;
     padding-right: 10px;
     padding-bottom: 40px;
@@ -21,6 +17,8 @@ h1{
 }
 .top-banner{
     display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat; 
 }
 
 .top-hight{
@@ -38,5 +36,11 @@ h1{
     color: white;
     font-weight: 700;
     
+}
+.dream-big{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
